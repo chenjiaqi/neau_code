@@ -1,0 +1,33 @@
+环境：
+
+操作系统： ubuntu 22.04
+开发IDE:  PyCharm  https://www.jetbrains.com/pycharm/  
+
+pip 依赖 安装:
+
+python3 get-pip.py 
+pip3 install counterfit
+pip3 install counterfit_connection
+pip3 install Werkzeug==2.0
+pip3 install counterfit_shims_grove
+
+
+
+  
+
+课程大纲：
+(https://youtube.com/playlist?list=PLWMm_2BqqqU2YT94XCEPtFNpBW2ZCOkge&si=sDBIM5fGoctF4nck)
+1 Python 语言基础
+  * 变量
+  * 数字和基本运算符
+  * 数据类型
+  * 决策语句
+
+2 A Simple Iot Demo Written in Python
+  * 传感器简单介绍
+  * 虚拟传感器平台 CounterFit Introduction
+  * 使用Python与CounterFit交互
+  * 自动化控制编码
+
+3 数据可视化
+  * 将传感器采集到的数据可视化

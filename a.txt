@@ -1,0 +1,30 @@
+
+1. 下载pip安装包(Python包管理工具)
+wget  https://bootstrap.pypa.io/get-pip.py
+
+2. 安装pip
+python3 get-pip.py
+
+3. 更新pip
+python3 -m pip install --upgrade pip
+
+4. 修改pip 源 
+pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+(如果pip3 报错，使用将pip3改为pip)
+
+5. 安装依赖包
+
+pip3 install counterfit
+(如果pip3 报错，使用将pip3改为pip)
+
+pip3 install Werkzeug==2.0
+(如果pip3 报错，使用将pip3改为pip)
+
+
+6. 测试
+重新开启一个终端，输入counterfit
+
+打开浏览器，输入http://localhost:5000/，可以看到如下界面
+
+
+
